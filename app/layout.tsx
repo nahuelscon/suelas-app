@@ -39,20 +39,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Navbar inferior */}
         <nav className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-lg bg-white border-t border-gray-200 flex justify-around py-2 z-50 shadow-lg">
-          <a href="/" className="flex flex-col items-center py-1 px-3 text-purple-800">
-            <span className="text-2xl">🏠</span>
+          <a href="/" className="flex flex-col items-center py-1 px-2 text-purple-800">
+            <span className="text-xl">🏠</span>
             <span className="text-xs mt-1">Inicio</span>
           </a>
-          <a href="/galeria" className="flex flex-col items-center py-1 px-3 text-gray-500">
-            <span className="text-2xl">👠</span>
+          <a href="/galeria" className="flex flex-col items-center py-1 px-2 text-gray-500">
+            <span className="text-xl">👠</span>
             <span className="text-xs mt-1">Modelos</span>
           </a>
-          <a href="/subir" className="flex flex-col items-center py-1 px-3 text-gray-500">
-            <span className="text-2xl bg-purple-700 text-white rounded-full w-12 h-12 flex items-center justify-center -mt-4 shadow-lg">+</span>
+          <a href="/subir" className="flex flex-col items-center py-1 px-2 text-gray-500">
+            <span className="text-xl bg-purple-700 text-white rounded-full w-10 h-10 flex items-center justify-center -mt-3 shadow-lg">+</span>
             <span className="text-xs mt-1">Subir</span>
           </a>
-          <a href="/reportes" className="flex flex-col items-center py-1 px-3 text-gray-500">
-            <span className="text-2xl">📊</span>
+          <a href="/diseno" className="flex flex-col items-center py-1 px-2 text-gray-500">
+            <span className="text-xl">✨</span>
+            <span className="text-xs mt-1">Diseño</span>
+          </a>
+          <a href="/reportes" className="flex flex-col items-center py-1 px-2 text-gray-500">
+            <span className="text-xl">📊</span>
             <span className="text-xs mt-1">Reportes</span>
           </a>
         </nav>
